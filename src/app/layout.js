@@ -12,18 +12,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="flex min-h-screen">
-        <nav className="w-1/6 bg-gray-800 text-white h-screen p-5">
-        <div className="align-middle">
-          Philip Roddenberry
-        </div>
-          <ul>
-            <li className="mb-4"><a href="/" className="hover:text-blue-500">Home</a></li>
-            <li className="mb-4"><a href="/about" className="hover:text-blue-500">About</a></li>
-            <li className="mb-4"><a href="/projects" className="hover:text-blue-500">Projects</a></li>
-            <li className="mb-4"><a href="/contact" className="hover:text-blue-500">Contact</a></li>
-          </ul>
-        </nav>
-        <main className="flex-1 p-10">
+        <main className="flex-1 p-10 overflow-y-auto">
           {children}
         </main>
       </body>

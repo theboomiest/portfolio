@@ -2,7 +2,21 @@ import Image from "next/image";
 
 export default function Home() {
   return (
+    
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
+
+      <nav className="sticky top-0 h-screen flex items-center justify-center px-10">
+        <div className="bg-transparent border border-gray-600 rounded-lg p-6 w-full hover:bg-white/70 hover:shadow-lg transition-all duration-300">
+          <ul className="space-y-4">
+            <li className="mb-8 text-8xl font-mono">Oh hello;</li>
+            <li><a href="/" className="block text-gray-800 text-lg font-semibold hover:text-blue-500">Home</a></li>
+            <li><a href="/about" className="block text-gray-800 text-lg font-semibold hover:text-blue-500">About</a></li>
+            <li><a href="/projects" className="block text-gray-800 text-lg font-semibold hover:text-blue-500">Projects</a></li>
+            <li><a href="/contact" className="block text-gray-800 text-lg font-semibold hover:text-blue-500">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
         <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
           Get started by editing&nbsp;
