@@ -2,11 +2,11 @@
 
 export default function Navbar({ onSectionChange }) {
   return (
-    <nav className="fixed top-1/3 border-gray-500 border-2 bg-transparent transition-all duration-300 ease-in-out p-12 rounded-lg hover:shadow-lg hover:bg-white hover:bg-opacity-70 flex-initial space-y-10">
-        <div className="text-8xl">
+    <nav className="border-gray-500 border-2 bg-transparent transition-all duration-300 ease-in-out p-12 rounded-lg hover:shadow-lg hover:bg-white hover:bg-opacity-70 flex-initial space-y-6 md:space-y-10">
+        <div className="font-semibold text-4xl lg:text-6xl xl:text-8xl">
             Oh hello;
         </div>
-        <div className="flex justify-between text-2xl text-slate-900">
+        <div className="flex flex-col max-xl:space-y-4 xl:flex-row xl:justify-between text-2xl text-slate-900">
             <button onClick={() => onSectionChange('home')} className= "hover:text-primary transition">
             Home
             </button>

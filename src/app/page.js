@@ -15,14 +15,14 @@ export default function Home() {
   }
 
   return (
-    <main className="flex min-h-screen">
+    <main className="flex flex-col lg:flex-row min-h-screen">
       {/* Left column: Navbar */}
-      <div className="w-1/3 justify-end">
+      <div className="w-full lg:sticky lg:top-1/2 lg:w-2/5 flex lg:items-center justify-center lg:justify-end">
         <Navbar onSectionChange={handleSectionChange} />
       </div>
 
       {/* Right column: Content */}
-      <div className="w-2/3">
+      <div className="md:w-2/5 flex-col items-center justify-center p-4 lg:py-20">
         <div className={activeSection === 'home' ? 'fade-in' : 'fade-out'}>
           <HomeSection />
         </div>
