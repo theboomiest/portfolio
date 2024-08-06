@@ -3,7 +3,6 @@ export default function Contact() {
       <section id="about" className="p-8">
         <h2 className="text-3xl font-bold mb-4">About Me</h2>
         <div className="flex flex-col lg:flex-row lg:space-x-8">
-          <img src="/profile.jpg" alt="Profile" className="w-40 h-40 rounded-full mb-4 lg:mb-0" />
           <p className="max-w-xl text-lg">
             I'm a web developer with a passion for creating beautiful and functional user experiences.
             With a background in [Your Background], I specialize in [Your Specialization].
