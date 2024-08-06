@@ -1,3 +1,7 @@
+import About from './About'
+import Contact from './Contact'
+import Projects from './Projects'
+
 export default function HomeSection() {
     return (
       <section className="min-h-screen flex flex-col justify-center items-start p-8">
@@ -7,6 +11,15 @@ export default function HomeSection() {
         <p className="max-w-xl text-lg text-gray-300 mb-8">
           I specialize in building exceptional websites, applications, and everything in between.
         </p>
+        <div>
+            <About />
+        </div>
+        <div>
+            <Contact />
+        </div>
+        <div>
+            <Projects />
+        </div>
       </section>
     )
   }

@@ -15,11 +15,14 @@ export default function Home() {
   }
 
   return (
-    <div className='mt-10 columns-2'>
-      <div className=''>
+    <main className="flex min-h-screen">
+      {/* Left column: Navbar */}
+      <div className="w-1/3 justify-end">
         <Navbar onSectionChange={handleSectionChange} />
       </div>
-      <main className="mt-20"> {/* Add margin to account for the fixed navbar */}
+
+      {/* Right column: Content */}
+      <div className="w-2/3">
         <div className={activeSection === 'home' ? 'fade-in' : 'fade-out'}>
           <HomeSection />
         </div>
@@ -32,7 +35,7 @@ export default function Home() {
         <div className={activeSection === 'contact' ? 'fade-in' : 'fade-out'}>
           <Contact />
         </div>
-      </main>
-    </div>
+      </div>
+    </main>
   )
 }
