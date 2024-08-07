@@ -42,7 +42,7 @@ body {
 .section.inactive {
   opacity: 0;
   max-height: 0px;
-  transition: opacity 0.66s ease-in-out, max-height 0.66s ease-in-out; 
+  transition: opacity 0.66s ease-in-out, max-height 0.66s ease-in-out;
 }
 
 /* .section p {
