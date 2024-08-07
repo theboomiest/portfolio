@@ -36,8 +36,8 @@ export default function Home() {
         <Navbar toggleSection={toggleSection} />
       </div>
 
-      {/* Right column: Content */}
-      <div className="md:w-2/5 flex-col items-center justify-center p-4 lg:py-20">
+      {/* Right column: Active Content */}
+      <div className="md:w-2/5 flex flex-col items-center justify-center p-4 lg:py-20">
         <div className={`section about ${visibleSections.about ? 'active' : 'inactive'}`}>
           <About />
         </div>
