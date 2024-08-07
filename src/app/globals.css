@@ -27,14 +27,25 @@ body {
   }
 }
 
-.fade-in {
-  opacity: 1;
-  transition: opacity 0.5s ease-in;
-}
-
-.fade-out {
+.section {
   opacity: 0;
-  transition: opacity 0.5s ease-out;
-  height: 0; /* Ensures that the section doesn't take up space when faded out */
+  height: auto;
+  transition: opacity 0.75s ease-in-out, max-height 0.75s ease-in-out; /* Animate opacity and height */
   overflow: hidden;
 }
+
+.section.active {
+  opacity: 1;
+  max-height: 100vh; /* Expand height. Choose a large enough value to accommodate the content */
+}
+
+.section.inactive {
+  opacity: 0;
+  max-height: 0px;
+  transition: opacity 0.75s ease-in-out, max-height 0.75s ease-in-out; 
+}
+
+/* .section p {
+  margin: 0;
+  padding: 10px 0;
+} */
