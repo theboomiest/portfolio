@@ -30,7 +30,7 @@ body {
 .section {
   opacity: 0;
   height: auto;
-  transition: opacity 0.75s ease-in-out, max-height 0.75s ease-in-out; /* Animate opacity and height */
+  transition: opacity 0.66s ease-in-out, max-height 0.66s ease-in-out; /* Animate opacity and height */
   overflow: hidden;
 }
 
@@ -42,7 +42,7 @@ body {
 .section.inactive {
   opacity: 0;
   max-height: 0px;
-  transition: opacity 0.75s ease-in-out, max-height 0.75s ease-in-out; 
+  transition: opacity 0.66s ease-in-out, max-height 0.66s ease-in-out; 
 }
 
 /* .section p {
