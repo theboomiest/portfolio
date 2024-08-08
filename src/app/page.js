@@ -30,14 +30,14 @@ export default function Home() {
   };
 
   return (
-    <main className="flex flex-col lg:flex-row min-h-screen">
+    <main className="flex flex-col lg:flex-row min-h-screen gap-x-8">
       {/* Left column: Navbar */}
       <div className="w-full lg:sticky lg:top-1/2 lg:w-2/5 flex lg:items-center justify-center lg:justify-end height=100vh">
         <Navbar toggleSection={toggleSection} />
       </div>
 
       {/* Right column: Active Content */}
-      <div className="md:w-2/5 flex flex-col items-center justify-center p-4 lg:py-20">
+      <div className="md:w-2/5 flex flex-col items-start justify-center p-4 lg:py-20">
         <div className={`section about ${visibleSections.about ? 'active' : 'inactive'}`}>
           <About />
         </div>
