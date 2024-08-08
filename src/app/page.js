@@ -32,7 +32,7 @@ export default function Home() {
   return (
     <main className="flex flex-col lg:flex-row min-h-screen lg:gap-x-16">
       {/* Left column: Navbar */}
-      <div className="w-full lg:sticky lg:top-1/2 lg:w-2/5 flex lg:items-center justify-center lg:justify-end height=100vh">
+      <div className="w-full lg:sticky lg:top-1/2 lg:w-2/5 flex lg:items-center justify-center lg:justify-end max-h-screen h-screen">
         <Navbar toggleSection={toggleSection} />
       </div>
 
