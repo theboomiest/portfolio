@@ -44,8 +44,3 @@ body {
   max-height: 0px;
   transition: opacity 0.66s ease-in-out, max-height 0.66s ease-in-out;
 }
-
-/* .section p {
-  margin: 0;
-  padding: 10px 0;
-} */
