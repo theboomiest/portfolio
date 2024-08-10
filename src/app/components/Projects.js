@@ -12,8 +12,8 @@ export default function Projects() {
           </div>
           <div className="pl-4 space-y-1">
             <div className="flex items-start space-x-2">
-              <a href='https://umbrage.world'><Image src="/burning-skull-icon.png" alt="Burning skull icon for umbrage.world" width={32} height={32}/></a>
-              <h3 className="text-2xl font-bold"><a href="https://umbrage.world">umbrage.world</a></h3>
+              <a href='https://umbrage.world' target='_blank'><Image src="/burning-skull-icon.png" alt="Burning skull icon for umbrage.world" width={32} height={32}/></a>
+              <h3 className="text-2xl font-bold"><a href="https://umbrage.world" target='_blank'>umbrage.world</a></h3>
             </div>
             <p className="pl-4 max-w-xl text-xl text-slate-600">Campaign website for Pathfinder 2e with custom wiki-style setting documentation</p>
             <p className="max-w-xl text-lg text-slate-900">A Wordpress website for a custom PF2e campaign. Featuring a robust wiki that contains all the custom setting information compiled using Quartz interpreting a directory of Markdown files. The setting page is hosted on a static GitPage.</p>
