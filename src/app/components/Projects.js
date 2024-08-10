@@ -12,7 +12,7 @@ export default function Projects() {
           </div>
           <div className="pl-4 space-y-1">
             <div className="flex items-start space-x-2">
-              <a href='https://umbrage.world'><Image src="/burning-skull-icon.png" alt="Burning skull icon for umbrage.world" width={32} height={32}/></a>
+              <a href='umbrage.world'><Image src="/burning-skull-icon.png" alt="Burning skull icon for umbrage.world" width={32} height={32}/></a>
               <h3 className="text-2xl font-bold"><a href="umbrage.world">umbrage.world</a></h3>
             </div>
             <p className="pl-4 max-w-xl text-xl text-slate-600">Campaign website for Pathfinder 2e with custom wiki-style setting documentation</p>
