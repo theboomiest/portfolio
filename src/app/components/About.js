@@ -1,6 +1,6 @@
 export default function About() {
     return (
-      <section id="about" className="p-8 w-3/5">
+      <section id="about" className="p-8 w-full 2xl:w-4/5">
         <div className="flex flex-col lg:space-y-4">
           <div className="text-5xl font-bold">
             Hi! I&apos;m Philip Roddenberry

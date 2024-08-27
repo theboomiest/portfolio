@@ -1,6 +1,6 @@
 export default function Contact() {
     return (
-      <section id="about" className="p-8 w-3/5">
+      <section id="about" className="p-8 w-full 2xl:w-4/5">
         <h2 className="text-5xl font-bold mb-4">About Me</h2>
         <div className="flex flex-col lg:flex-row lg:space-x-8">
           <p className="text-lg">

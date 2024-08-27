@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Projects() {
     return (
-      <section id="projects" className="p-8 w-3/5">
+      <section id="projects" className="p-8 w-full 2xl:w-4/5">
         <h2 className="text-5xl font-bold mb-4">Projects</h2>
         <div className="space-y-6">
           <div className="p-4 space-y-2 bg-transparent transition-all duration-300 ease-in-out hover:bg-lime-700 hover:bg-opacity-20 rounded-lg hover:shadow-lg">
