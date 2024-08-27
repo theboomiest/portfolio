@@ -30,7 +30,7 @@ export default function Home() {
   };
 
   return (
-    <main className="flex flex-col lg:flex-row min-h-screen lg:gap-x-16">
+    <main className="flex flex-col lg:flex-row min-h-screen lg:gap-x-24">
       {/* Left column: Navbar */}
       <div className="w-full lg:sticky lg:top-1/2 lg:w-2/5 flex lg:items-center justify-center lg:justify-end max-h-screen lg:h-screen" style={{ minHeight: '340px' }}>
         <Navbar toggleSection={toggleSection} />
