@@ -36,7 +36,7 @@ body {
 
 .section.active {
   opacity: 1;
-  max-height: 100vh; /* Expand height. Choose a large enough value to accommodate the content */
+  max-height: 4000px; /* Expand height. Choose a large enough value to accommodate the content */
 }
 
 .section.inactive {
