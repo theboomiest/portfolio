@@ -13,6 +13,7 @@ export default function Home() {
     contact: true,
   });
 
+  {/* Takes an ID passed from module and sets the section visibility according to conditionals below */}
   const toggleSection = (section) => {
     if (section === 'home') {
       setVisibleSections({

@@ -6,6 +6,8 @@ export default function Navbar({ toggleSection }) {
         <div className="font-semibold text-4xl lg:text-6xl xl:text-8xl">
             Oh hello;
         </div>
+
+      {/* Row of buttons that use toggleSection to set a Right Column section to active or inactive */}
         <div className="flex flex-col max-xl:space-y-4 xl:flex-row xl:justify-between text-2xl text-slate-900">
           <button onClick={() => toggleSection('home')} className= "hover:text-primary transition">Home</button>
           <button onClick={() => toggleSection('about')} className= "hover:text-primary transition">About</button>
