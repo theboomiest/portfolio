@@ -2,7 +2,7 @@
 
 export default function Navbar({ toggleSection }) {
   return (
-    <nav className="border-gray-500 border-2 bg-transparent transition-all duration-300 ease-in-out p-12 rounded-lg hover:shadow-lg hover:bg-white hover:bg-opacity-70 flex-initial space-y-6 lg:space-y-10 fixed">
+    <nav className="border-gray-500 border-2 bg-transparent transition-all duration-300 ease-in-out p-12 max-lg:bg-white rounded-lg hover:shadow-lg lg:hover:bg-white max-lg:bg-opacity-70 flex-initial space-y-6 lg:space-y-10 fixed">
         <div className="font-semibold text-4xl lg:text-6xl xl:text-8xl">
             Oh hello;
         </div>
